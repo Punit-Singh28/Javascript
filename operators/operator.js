@@ -33,24 +33,31 @@ Calculation: 20 divided by 8 is 2 with a remainder of 4. So, the result is 24
 */
 
 let num = 88;
-console.log("num: ", num);
-console.log("value:", typeof num);
+// console.log("num: ", num);
+// console.log("value:", typeof num);
 
 let newData = num.toString();
 //num.toString change the datatype of variable [number -> String]
-console.log('newData:', newData);
-console.log(typeof newData);
+
+// console.log('newData:', newData);
+// console.log(typeof newData);
 //the typeof method shows the data type of variable
 
 let newData1 = String(num);
 //num String change the datatype of variable [number -> String]
-console.log(newData1);
-console.log(typeof newData1);
+
+// console.log(newData1);
+// console.log(typeof newData1);
 
 let newData2 = Number(num);
 //num Number change the datatype of variable [number -> String]
-console.log(newData2);
-console.log(typeof newData2);
+
+// console.log(newData2);
+// console.log(typeof newData2);
+
+let decival = 20;
+let ans = parseInt(decival,10);
+console.log(ans)
 
 
 
