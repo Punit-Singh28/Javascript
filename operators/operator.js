@@ -55,8 +55,8 @@ let newData2 = Number(num);
 // console.log(newData2);
 // console.log(typeof newData2);
 
-let decival = 20;
-let ans = parseInt(decival,10);
+let decival = 255;
+let ans = decival.toString(16);
 console.log(ans)
 
 
