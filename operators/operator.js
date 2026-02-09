@@ -11,15 +11,15 @@ let flag = true;
 // flag -> true; !flag= -> false; !!flag -> true
 
 let flag1 = false;
-console.log(!!flag1)
+// console.log(!!flag1)
 // flag1 -> false; !flag1 -> true; !!flag -> false
 
 let binary = 10100;
-console.log(binary);
+// console.log(binary);
 // binary -> String; 10100 -> value; normally assigning value to string
 
 let decimal = parseInt(binary, 2);
-console.log(decimal);
+// console.log(decimal);
 /*
 The parseInt(string, radix) function takes a string and a radix (the base).
 Calculation: (1×2**4) + (0×2**3) + (1×2**2) + (0×2**1) + (0×2**0) = 16 + 0 + 4 + 0 + 0 = 20.
@@ -27,7 +27,7 @@ console.log(decimal); -> prints 20
 */
 
 let octal = decimal.toString(8);
-console.log(octal);
+// console.log(octal);
 /* The .toString(radix) method does the opposite of parseInt. It takes a base-10 number and converts it into a string representation of another base.
 Calculation: 20 divided by 8 is 2 with a remainder of 4. So, the result is 24
 */
@@ -55,9 +55,21 @@ let newData2 = Number(num);
 // console.log(newData2);
 // console.log(typeof newData2);
 
-let decival = 255;
-let ans = decival.toString(16);
-console.log(ans)
+let decival = 20;
+console.log('type of decimal: ',typeof decival, ' & value->', decival);
+let octaval = decival.toString(8);
+console.log('type of oct: ',typeof octaval, ' & conversion of dec to oct->', octaval)
+
+
+let octTohex = parseInt(octaval, 8);
+console.log('type after converting to decimal: ',typeof octTohex, ' & value->', octTohex);
+octTohex = octTohex.toString(16);
+console.log('type of hexa: ',typeof octTohex, ' & conversion of oct to hex->', octTohex)
+
+
+ 
+
+
 
 
 

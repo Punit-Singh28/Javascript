@@ -51,6 +51,20 @@ The four basic functions of persistent storage:
 | **Assignment** | `=` | Assigns a value |
 | **Comparison** | `==`, `!=` | camparison between only data values |
 | **Strict** | `===`, `!==` | camparison between both data values & data type |
+|**concatenation** | `+` | used to add to number or string|
+
+### Conversion of Operator (String to Decimal & Decimal to String)
+* **String** to **Decimal** :- use `parseInt()` function [ Example=> parseInt(String, 10); ]
+* **Decimal** to **String** :- use `toString()` function [ Example=> decival.toString(8); ]
+
+* **RULE**:- Strings to Strings conversion not possible first convert number to decimal then convert it into string as required output.
+
+* **NOTE**:- octa, hexa, hexdeci values are strings. 
+
+
+## concatenation
+
+*The process of joining two or more strings end-to-end to form a single, new string.
 
 ---
 
