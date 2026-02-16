@@ -23,7 +23,7 @@
 // const ans = paraFun(2,3);
 // console.log(ans);
 
-let num_1 = +process.argv[2];
+let num_1 = +process.argv[2]; //to take input from terminal we use 'process.argv[2]' and '+process.argv[2];'  "+" indicate a   numeric value it is a unary operator that convert String into number.
 console.log('num_1: ',num_1);
 let num_2 = +process.argv[3];
 console.log('num_2: ',num_2);

@@ -1,6 +1,6 @@
-let num_1 = prompt("Enter num-1");
+let num_1 = +prompt("Enter num-1");
 console.log('num_1: ',num_1);
-let num_2 =  prompt("Enter num-2");
+let num_2 =  +prompt("Enter num-2");
 console.log('num_2: ',num_2);
 const sum = (a, b) => {
     return a + b;

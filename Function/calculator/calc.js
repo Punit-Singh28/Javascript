@@ -15,8 +15,6 @@ const num_1 = +prompt("Enter value of Number-1 to perform calculation");
 const num_2 = +prompt("Enter value of Number-2 to perform calculation");
 const opt = prompt("Enter value of Operator to perform calculation");
 
-
-
 const calcFunction = (data_1, data_2, opt) => {
     switch(opt)
     {
