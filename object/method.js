@@ -19,9 +19,9 @@
 // const person = {
 //     country : "India",
 //     love : "Food",
-    // fun(){
-    //     console.log(`${this.name} stays in ${this.country} and he loves spicy ${this.love}`);
-    // }
+//     fun(){
+//         console.log(`${this.name} stays in ${this.country} and he loves spicy ${this.love}`);
+//     }
 // }
 // console.log("Default Person object: ",person);
 // // const createdVal = Object.create(person);
