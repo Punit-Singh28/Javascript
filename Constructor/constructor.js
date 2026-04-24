@@ -7,7 +7,7 @@
 //     }
 // }
 // "new" is define for creating a new "constructor"
-// let c = new car('Pratigya', 2000); 
+// let c = new car('Punit', 2000); 
 // console.log(c);
 
 // Function based constructor More useage in REACT & JS 
