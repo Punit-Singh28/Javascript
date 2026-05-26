@@ -1,5 +1,5 @@
 //normal switch statement
-// let flag = true;
+// let flag = false;
 // switch (flag) {
 //     case true:
 //         console.log(`flag is ${flag}`);

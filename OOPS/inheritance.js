@@ -13,7 +13,8 @@ class SUV extends Car {
         this.amount = '100000';
     }
 }
-
+const suv = new SUV();
+console.log(suv);
 class yourwarranty extends SUV{
     constructor(...value){
         super(...value);
@@ -21,7 +22,7 @@ class yourwarranty extends SUV{
         this.warrantyYear = '3';
     }
 }
-
-// const detail = new yourwarranty('Punit', 2004, 'THAR');
+const warranty = new yourwarranty();
+console.log(warranty);// const detail = new yourwarranty('Punit', 2004, 'THAR');
 const detail = new SUV('Punit', 5, 'BMW')
 console.log('your Car Datail: ',detail);
